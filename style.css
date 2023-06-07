@@ -4,6 +4,8 @@ color: #343d44;
 font-family: "segoe-ui", "open-sans", tahoma, arial;
 padding: 0;
 margin: 0;
+background-image: url('bg.png');
+background-size: cover;
 }
 table {
 margin: auto;
@@ -49,6 +51,7 @@ text-transform: uppercase;
 /* Table Body */
 .data-table tbody td {
 color: #353535;
+background-color: #fbffec;
 }
 .data-table tbody td:first-child,
 .data-table tbody td:nth-child(4),
